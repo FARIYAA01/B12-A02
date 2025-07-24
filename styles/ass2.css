@@ -15,7 +15,7 @@
 
 /* body */
 body{
-  background-color: #c1bfd46a;
+  background-color: #c1bfd444;
 }
 /* first file*/
 .navbar {
@@ -110,4 +110,84 @@ nav a {
   color: #00000075;
   line-height: 1;
   font-family: "Inter", sans-serif;
+}
+
+
+/* second file */
+
+.plants-section {
+  text-align: center;
+  padding: 60px 30px;
+  margin-left: 110px;
+  margin-right: 110px;
+  
+}
+
+.plants-section h1 {
+  font-size: 3rem;
+  color: #252432;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 10px;
+}
+
+.plants-section h1 span {
+  color: #E95A08;
+  font-weight: bold;
+}
+
+.plants-section p {
+  font-size: 1.25rem;
+  color: #00000075;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 18px;
+}
+
+.grid-item {
+  
+  font-family: "Inter", sans-serif;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+
+}
+
+.grid-item h2 {
+  font-size: 1.4rem;
+   font-weight:500;
+  margin: 12px 0 6px;
+  color: #111111;
+}
+
+.grid-item p {
+  font-size: 1.5rem;
+  color: #111111;
+  font-weight: bold;
+  margin-top:17px;
+}
+
+.grid-item button {
+  background-color: #E95A08;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  padding: 16px 20px;
+ width: 100%;
+  box-sizing: border-box; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.grid-item button:hover {
+  background-color: #d45105;
 }
