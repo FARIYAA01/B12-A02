@@ -251,3 +251,170 @@ nav a {
 }
 
 
+/* forth file  */
+
+.deal-container{
+    
+  text-align: center;
+  padding: 60px 30px;
+  margin-left: 110px;
+  margin-right: 110px;
+  
+}
+.deal-container h2{
+   font-size:3.2rem;
+   font-weight:700;
+  margin: 12px 0 6px;
+  color: #111111;
+  font-family: "Noto Serif", serif;
+}
+.deal-container h2 span{
+  color: #d45105;
+ 
+}
+.deal-container p{
+  font-size: 1.5rem;
+  font-weight: 400;
+   font-family: "Inter", sans-serif;
+     color: #00000075;
+}
+
+.deal-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto 180px;
+}
+
+.img-group-left {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.deal-img,
+.img-right {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.deal-img {
+  width: 22rem;
+  height: 12.2rem;
+
+}
+
+.img-right {
+  width: 50rem;
+  height: 26.5rem;
+}
+
+
+.img-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.fig-cap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+  font-family: "Noto Serif", serif;
+  width: 80%;
+}
+
+.fig-cap h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.fig-cap-right h3{
+ font-size: 3.2rem; /* Larger font for bigger image */
+  font-weight: 600;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+.fig-cap-right .deal-link{
+   font-size: 2.1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+  transition: color 0.3s ease;
+}
+.fig-cap a {
+  color: white;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+
+.fig-cap a:hover {
+  color: #ffa94d;
+  text-decoration: none;
+}
+
+/* .img-text h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.img-text a {
+  text-decoration: underline;
+  color: white;
+  font-weight: 600;
+}
+.fig-cap h3 {
+ position: absolute;
+ 
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Noto Serif", serif;
+   font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.deal-link {
+  position: absolute;
+ 
+  z-index: 5;
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.deal-link:hover {
+  color: #781b1b; /* or any accent color */
+  text-decoration: none;
+} */
