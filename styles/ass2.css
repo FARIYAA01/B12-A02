@@ -378,7 +378,50 @@ nav a {
   text-decoration: none;
 }
 
-/* sixth file */
+/* forth responsive file */
+
+@media (max-width: 575px) {
+  .deal-container {
+    padding: 40px 20px;
+    margin: 0 10px;
+  }
+
+  .deal-container h2 {
+    font-size: 2rem;
+  }
+
+  .deal-container p {
+    font-size: 1rem;
+  }
+
+  .deal-img-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .img-group-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .deal-img,
+  .img-right {
+    width: 375px;
+    height: auto;
+  }
+
+  .img-right {
+    height: 201px;
+  }
+
+}
+
+
+/* fifth file */
 
 
 .taking-info {
@@ -474,7 +517,7 @@ nav a {
   }
 }
 
-/* seventh file */
+/* sixth file */
 
 .footer {
   background-color: #fff;
