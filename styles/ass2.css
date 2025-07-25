@@ -252,7 +252,42 @@ nav a {
   line-height: 1.5;
   font-family: "Inter", sans-serif;
 }
+/* third responsive file */
+@media (max-width: 575px) {
+  .flwr-shop {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    margin: 4rem auto;
+  }
 
+  .main-img {
+    width: 100%;
+    height: 396px;
+    object-fit: cover;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  
+
+  .plant-love h1 {
+    font-size: 1.7rem; /* reduced from 3.12rem */
+    margin-bottom: 1.5rem;
+  }
+
+  .flwr-list {
+    padding-left: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .flwr-list li {
+    font-size: 1rem; /* reduced from 1.37em */
+  }
+}
 
 /* forth file  */
 
