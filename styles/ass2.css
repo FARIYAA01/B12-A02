@@ -125,6 +125,7 @@ nav a {
     margin-top: 20px; 
     width: 100px; 
     max-width: 100%;
+    margin-right: 0;
   }
 
  .nav-container{
@@ -552,9 +553,6 @@ nav a {
     height: 201px;
   }
   
-  .img-overlay {
-    padding right: 2px;
-}
   }
   .fig-cap-right h3 {
     font-size: 1.5rem;
@@ -577,7 +575,6 @@ nav a {
 
 
 
-}
 
 
 /* fifth file */
@@ -656,6 +653,7 @@ nav a {
     padding: 1rem;
     background-size: cover;
     background-position: center;
+    margin: 0px;
   }
 
   .taking-info h1 {
