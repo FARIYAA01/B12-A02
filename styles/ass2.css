@@ -349,7 +349,7 @@ nav a {
   margin: 0 0 8px;
 }
 .fig-cap-right h3{
- font-size: 3.2rem; /* Larger font for bigger image */
+ font-size: 3.2rem; 
   font-weight: 600;
   max-width: 600px;
   margin-bottom: 10px;
@@ -375,46 +375,72 @@ nav a {
   text-decoration: none;
 }
 
-/* .img-text h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
+/* sixth file */
 
-.img-text a {
-  text-decoration: underline;
-  color: white;
-  font-weight: 600;
-}
-.fig-cap h3 {
- position: absolute;
- 
-  z-index: 2;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+.taking-info {
+  height: 540px;
+  width: 100%;
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   text-align: center;
-  color: white;
-  font-family: "Noto Serif", serif;
-   font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+
+.taking-info h1 {
+  font-size: 2.5rem;
   font-weight: 700;
-  margin: 0;
-}
-
-.deal-link {
-  position: absolute;
- 
-  z-index: 5;
   color: white;
-  font-weight: 600;
-  text-decoration: underline;
-  margin-top: 8px;
-  display: inline-block;
-  font-size: 0.95rem;
-  transition: color 0.3s ease;
+  margin-bottom: 2rem;
+  font-family: "Noto Serif", serif;
 }
 
-.deal-link:hover {
-  color: #781b1b; /* or any accent color */
-  text-decoration: none;
-} */
+
+.personal-info {
+  display: flex;
+  align-items: centest;
+ 
+}
+
+
+.personal-info .email {
+  padding: 18px 300px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+   font-family: "Inter", sans-serif;
+}
+.email {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.email::placeholder {
+  text-align: left !important;
+}
+
+.taking-info button {
+  background-color: #E95A08;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  padding: 18px 60px;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+   font-family: "Inter", sans-serif;
+
+}
+
+.taking-info button:hover {
+  background-color: #c94a06;
+}
