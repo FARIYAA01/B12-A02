@@ -73,7 +73,10 @@ nav a {
   justify-content: center;
   margin-top: 221px;
 }
-
+.nav-container{
+  display: flex;
+  gap:1.5rem;
+}
 .header-title {
   display: flex;
   justify-content: space-between;
@@ -114,6 +117,75 @@ nav a {
   line-height: 1;
   font-family: "Inter", sans-serif;
 }
+/* first responsive file */
+@media (max-width: 575px) {
+  
+   .logo {
+    margin-left: 0;
+    margin-top: 20px; 
+    width: 100px; 
+    max-width: 100%;
+  }
+
+ .nav-container{
+  display:none;
+ }
+
+ 
+  .bars{
+    font-size: 1.3rem;
+   margin-right: 0.7rem; 
+  }
+
+  
+  .container {
+    margin-top: 100px; 
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+
+  .header-title {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  
+  .hero-flower {
+    
+    width: 100%;
+  }
+
+  .hero-flower img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .title {
+    order: 2; 
+    text-align: left;
+    width: 100%;
+  }
+
+  
+  .title h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .title p {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+
+  .title1, .title2 {
+    margin-top: 0;
+  }
+}
+
 
 
 /* second file */
