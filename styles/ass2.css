@@ -552,8 +552,6 @@ nav a {
   .img-right {
     height: 201px;
   }
-  
-  }
   .fig-cap-right h3 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -572,6 +570,10 @@ nav a {
   .fig-cap {
     width: 90%;
   }
+
+
+  }
+  
 
 
 
@@ -609,7 +611,7 @@ nav a {
 
 .personal-info {
   display: flex;
-  align-items: centest;
+  align-items: center;
  
 }
 
@@ -619,6 +621,7 @@ nav a {
   font-size: 1rem;
   border: none;
   outline: none;
+  text-align: left;
    font-family: "Inter", sans-serif;
 }
 .email {
