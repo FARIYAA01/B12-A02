@@ -447,7 +447,32 @@ nav a {
 .taking-info button:hover {
   background-color: #c94a06;
 }
+/* sixth responsive file   */
+@media (max-width: 575px) {
+  .taking-info {
+    height: 393px;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
 
+  .taking-info h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+
+  .taking-info button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 4px;
+  }
+
+  .personal-info .email {
+    padding: 14px;
+    max-width: 100%;
+  }
+}
 
 /* seventh file */
 
